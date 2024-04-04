@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#fileInput {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.custom-file-upload:hover {
+    background-color: #2fce7e;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    background-color: #2fce7e;
+    left: 20px;
+    margin-right: 1000px;
+}
+
+.success {
+    color: #fff;
+}
